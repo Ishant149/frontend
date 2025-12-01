@@ -9,9 +9,8 @@
     "axios": "^1.6.0"
   },
   "scripts": {
-    "preinstall": "chmod +x node_modules/.bin/* || true",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "npx react-scripts build"
   },
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
